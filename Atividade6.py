@@ -1,23 +1,18 @@
 # Demonstração do uso da condicional...
-print("Digite o número referente ao dia da semana")
-print("1. segunda-feira")
-print("2. terça-feira")
-print("3. quarta-feira")
-print("4. quinta-feira")
-print("5. sexta-feira")
-print("6. sábado ou domingo")
-ESTADO= int(input())
+SEMANA= input("Digite o dia da semana:")
 
-match ESTADO:
-    case 1:
+match SEMANA:
+    case "segunda-feira":
         print("Ir ao SENAC")
-    case 2:
+    case "terça-feira":
         print("Ir à UERJ" )
-    case 3:  
+    case "quarta-feira":
         print("Ir ao SENAC")
-    case 4:
+    case "quinta-feira":
         print("Ir à UERJ")
-    case 5: 
+    case "sexta-feira":
         print("Ir ao SENAC")
-    case 6:
+    case "sábado":
         print("Folga")
+    case "domingo":
+        print("Ir ao culto")    
