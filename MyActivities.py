@@ -12,7 +12,7 @@ else:
     if MANHÃ == "dormir"or TARDE == "jogar":
         print("Você está desperdiçando o seu dia!")    
     elif MANHÃ == "estudar" or TARDE == "treinar":
-        print("Que bom você irá se aperfeiçoar")
+        print("Que bom você irá se aperfeiçoar!")
     elif MANHÃ == "planejar" and TARDE == "trabalhar":
         print("Para trabalhar melhor, devo planejar!")
     else:
