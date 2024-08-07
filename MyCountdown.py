@@ -1,9 +1,9 @@
-# Demosntração de contagem regressiva
-def contagem_regressiva():
-    for i in range(10, -1, -1):
-        print(i)
-        time.sleep(1)
-    print("Feliz Ano Novo!")
+# Exercício do contador
+CONTADOR = 10
 
-if __name__ == "__main__":
-    contagem_regressiva
+while CONTADOR >=0:
+
+    print("Contagem regressiva:", CONTADOR )
+    CONTADOR = CONTADOR - 1
+
+    print ("Feliz Ano Novo!") 
