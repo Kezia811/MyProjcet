@@ -16,3 +16,5 @@ del(SONHOS [3])
 print("Conferindo os sonhos.")
 for x in SONHOS:
     print(x)
+
+    

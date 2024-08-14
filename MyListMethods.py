@@ -1,19 +1,19 @@
 # Demonstração de métodos em listas
 INSS = ["Maria", "Manoel", "José", "Isabela"]
-print("Eis, a fila do INSS", INSS)
+print("Eis, a fila do INSS:", INSS)
 
 NOVO = input("Insira mais uma pessoa: ")
 INSS.append(NOVO)
-print("Confereindo a nova lista:", INSS)
+print("Conferindo a nova lista:", INSS)
 
 print("Vou tirar a última pessoa desta lista.")
 ESPECIAL = INSS.pop
 
-print("Agora, vou colocá-la na frente de todos")
+print("Agora, vou colocá-la na frente de todos.")
 INSS.insert(0, ESPECIAL)
-print("Conferindo a lista", INSS)
+print("Conferindo a lista:", INSS)
 
-print("Maria não gostou e revclamou.")
+print("Maria não gostou e reclamou.")
 INSS.remove("Maria")
 print("E agora, ela saiu 'pê da vida'", INSS)
 
